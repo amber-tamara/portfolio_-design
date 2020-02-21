@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.portfolio {
+  width: 280px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  position: absolute;
+  top: 10vh;
+  left: 7vh;
+  height: 90vh;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.portfolio-image {
+  -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  margin: 0 30px;
+}
+
+img {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.profile-information {
+  margin: 8px 0px 8px 35px;
+}
